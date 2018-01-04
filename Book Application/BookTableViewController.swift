@@ -48,7 +48,7 @@ class BookTableViewController: UITableViewController{
         return cell
     }
     
-    func close(){
+    @objc func close(){
             navigationController?.dismiss(animated: true, completion: nil)
         }
     

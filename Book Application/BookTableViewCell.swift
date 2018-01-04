@@ -23,11 +23,11 @@ class BookTableViewCell: UITableViewCell{
         authorLabel.text = bookObject.value(forKey: "author") as? String
         
         if let bookNumPages = bookObject.value(forKey: "numPages") as? Int{
-            pagesLabel.text = "\(bookNumPages)"
+            pagesLabel.text = "\(bookNumPages) pages"
         }
         
         if let year = bookObject.value(forKey: "year") as? Int{
-            yearLabel.text = "\(year)"
+            yearLabel.text = "Year: \(year)"
         }
         
     }

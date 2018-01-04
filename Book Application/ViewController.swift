@@ -106,7 +106,7 @@ class ViewController: UIViewController {
         
     }
     
-    func viewTapped(){
+    @objc func viewTapped(){
         
         for textfField in textFields{
             textfField.resignFirstResponder()
